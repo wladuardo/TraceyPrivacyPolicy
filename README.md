@@ -253,5 +253,7 @@ Your continued use of Tracey after an updated Privacy Policy becomes effective i
 If you have questions about this Privacy Policy, our privacy practices or your personal information, contact us at:
 
 **Tracey**  
+
 **Developer / Data Controller:** VLADISLAV KOVALSKII
+
 **Email:** vkovalskiyk@gmail.com

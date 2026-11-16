@@ -1,10 +1,10 @@
 # Privacy Policy
 
-**Last updated: October 7, 2026**
+**Last updated: November 16, 2026**
 
 Tracey ("Tracey", "we", "us", or "our") is a location-sharing application designed to help families, friends, and other trusted people stay connected and know that the people they care about are safe.
 
-Your privacy is important to us. This Privacy Policy explains what information Tracey collects, how we use it, when it may be shared, how long it is retained, and the choices available to you.
+Your privacy is important to us. This Privacy Policy explains what information Tracey collects, how we use it, who can see it, when it may be shared, how long it is retained, and the choices available to you.
 
 By using Tracey, you acknowledge the practices described in this Privacy Policy.
 
@@ -12,61 +12,115 @@ By using Tracey, you acknowledge the practices described in this Privacy Policy.
 
 ### Account Information
 
-When you create or use a Tracey account, we may collect information such as your name, display name, profile photo, email address, and authentication identifiers.
+Tracey accounts are created with Sign in with Apple or Google Sign-In.
 
-If you sign in using Sign in with Apple or Google Sign-In, we receive only the information that the authentication provider makes available to us and that you permit it to share.
+When you sign in, we receive your email address and an account identifier from the provider you chose. Google also gives us the name on your Google account. If you use Sign in with Apple and choose to hide your email, we receive the private relay address that Apple creates for you.
 
 We do not receive or store your Apple ID or Google account password.
+
+In the app you can choose a nickname and add a profile photo. Both are optional.
+
+The profile photo is selected through the system photo picker, so Tracey can access only the image you select and not the rest of your photo library. Before upload the image is reduced in size on your device, and its metadata, including any location stored in the photo, is removed.
 
 ### Location Information
 
 Location information is a core part of Tracey's functionality.
 
-With your permission, Tracey may collect your device's location, including precise location, while you are using the app and, if you enable the required permissions, while the app is running in the background.
+With your permission, Tracey collects your device's location, including precise location, while you are using the app and, if you allow "Always" access, while the app is in the background or closed.
 
-Location-related information may include latitude and longitude, timestamp, location accuracy and other location metadata provided by your device, such as altitude, speed or direction where available.
+Each location update may include latitude and longitude, the time it was recorded, accuracy, altitude and speed, together with your device's battery level and, if you allow Motion & Fitness access, how you are moving.
 
-Tracey may also store location history so that you and people you have chosen to share your location with can view previous locations, routes or related location information.
+Location updates are stored on our servers as your location history, so that you and the people you share your location with can see where you are now and where you have been.
+
+If your device has no connection, recent location updates are kept on the device and sent when the connection returns.
+
+A person you are connected with can ask Tracey for your up-to-date location. If you have allowed "Always" access, your device may respond by sending its current location in the background, without the app being open.
 
 Tracey does not collect location information unless the appropriate location permission has been granted on your device.
 
+### Motion and Activity
+
+If you allow Motion & Fitness access, Tracey uses it only to tell whether you are stationary, walking, cycling or driving. This is attached to your location updates and shown to the people you share your location with.
+
+This permission is optional. Tracey does not collect step counts, workouts or health data.
+
 ### Places and Location Events
 
-If you use features such as saved places, geofences, arrival alerts or departure alerts, we may process information about those places and events.
+A person you are connected with can mark places on the map, such as home or school, and be notified when you arrive at or leave them.
 
-This may include the coordinates or address of a saved place, its name, geofence configuration, and information about when a device enters or leaves a configured area.
+For each place we store its name, the coordinates of its center, its radius and the notification settings, and we process whether your device is inside or outside the place in order to send those notifications.
+
+A place is visible only to the person who created it. You do not see the places other people have marked for you.
+
+When someone searches for an address, or when the app shows the address of a point on the map, the search text or coordinates are sent to Apple Maps.
+
+### SOS Alerts
+
+If you send an SOS alert, we store the time of the alert and, when available, your location, its accuracy and your battery level, and we deliver the alert to all of your connections.
+
+An alert stays active until you mark it as resolved or for six hours, whichever comes first.
+
+Tracey does not contact emergency services. An SOS alert reaches only the people you are connected with in Tracey.
 
 ### Device and Technical Information
 
-We may process limited technical information required to operate and secure Tracey, such as device and app identifiers, operating system and app version, push notification tokens, connection information, IP address, server request logs and diagnostic information.
+We process limited technical information required to operate and secure Tracey: your device model, battery level, an identifier that the app generates for your device, push notification tokens, sign-in session identifiers, app and operating system version information sent with network requests, IP address and server request logs.
 
-Some features may also use device status information, such as battery level, when it is necessary to provide features such as battery notifications or location availability indicators.
+Battery level is shown to the people you share your location with and is used for low-battery notifications.
 
 ### Connections and Sharing Information
 
 Tracey allows users to share location information with trusted people.
 
-We may therefore store information about your connections with other Tracey users, such as invitations, groups, circles, family relationships, sharing permissions and other settings required to determine who is allowed to view your information.
+We store the information needed to determine who is allowed to view your information: connection requests, your connections, invite links, whether you have hidden your location from a particular person, and the notification settings each person has chosen for their connections.
 
 ### Push Notifications
 
-If you enable notifications, Tracey may use push notification tokens and notification-related information to send alerts such as location updates, arrival or departure notifications, connection alerts, safety notifications or other service-related messages.
+If you enable notifications, Tracey uses push notification tokens to send alerts such as arrival and departure notifications, changes in location sharing, low-battery and lost-contact notifications, SOS alerts and other service-related messages.
 
 You can disable push notifications at any time through your device settings.
+
+### Usage Statistics and Crash Reports
+
+Tracey uses Google Analytics for Firebase and Firebase Crashlytics, provided by Google, to understand how the app is used and to find and fix crashes.
+
+Usage statistics record actions in the app, such as which screens are opened, the answers you give during onboarding about who you plan to use Tracey with and what for, the sign-in method, your responses to permission requests, subscription screen views and purchase outcomes, and the use of features such as sending a connection request, saving a place or sending an SOS alert.
+
+These events do not contain your coordinates, name, nickname or email address, or any identifiers of the people you are connected with.
+
+Google's software also collects certain information automatically, including an identifier for the app installation, device model, operating system and app version, language, and an approximate region derived from your IP address.
+
+Crash reports contain technical details about the crash, such as the state of the app, device model, operating system version and an installation identifier.
+
+Usage statistics and crash reports are not linked to your Tracey account.
+
+This collection is on by default. You can turn it off at any time in Tracey under Settings → Privacy → "Usage stats and crash reports". When you turn it off, collection stops and data that has not yet been sent is deleted from your device.
+
+Tracey does not show advertising and does not ask for permission to track you across other companies' apps and websites.
 
 ### Subscription Information
 
 If you purchase a Tracey subscription through the Apple App Store, Apple processes your payment.
 
-Tracey does not receive or store your full credit or debit card information.
+Tracey does not receive or store your credit or debit card information.
 
-We may receive information necessary to determine your subscription status, such as the purchased product, subscription entitlement, transaction identifiers, purchase or expiration dates and subscription status.
+Whether your subscription is active is determined on your device through the App Store. Our servers do not receive information about your purchases.
+
+If usage statistics are turned on, they include events about the purchase process, such as the plan selected and whether the purchase was completed, without any payment details.
+
+### Camera
+
+If you scan another person's QR code to add them, Tracey uses the camera only to read the code. Camera images are processed on your device and are not stored or sent to us.
+
+### Information Stored on Your Device
+
+Tracey keeps your sign-in token and device identifier in the iOS Keychain, and keeps app settings and location updates that have not yet been sent in the app's storage on your device.
 
 ## 2. How We Use Your Information
 
 We use personal information only as reasonably necessary to operate Tracey and provide its features.
 
-This includes providing live location sharing and location history, displaying locations to people you have authorized, maintaining your account and connections, processing invitations and sharing permissions, delivering location and safety notifications, determining subscription access, operating and maintaining our servers, preventing fraud and unauthorized access, troubleshooting technical problems, protecting the security of Tracey and complying with applicable legal obligations.
+This includes providing live location sharing and location history, displaying locations to people you have authorized, maintaining your account and connections, processing invitations and sharing settings, delivering location and safety notifications, operating and maintaining our servers, understanding how the app is used and fixing crashes, preventing fraud and unauthorized access, troubleshooting technical problems, protecting the security of Tracey and complying with applicable legal obligations.
 
 We do not use precise location information for third-party advertising.
 
@@ -74,15 +128,41 @@ We do not sell your precise location information.
 
 We do not sell personal information to data brokers.
 
-## 3. Location Sharing
+## 3. Location Sharing and What Other People Can See
 
 Your location is not intended to be publicly visible.
 
-Location information is made available only as necessary to provide the Tracey service, including to Tracey users with whom you have chosen to share your location or with whom location sharing has otherwise been authorized through the application.
+Nobody can see your location until a connection has been agreed by both of you.
+
+### People You Are Not Connected With
+
+Any signed-in Tracey user who enters your exact nickname can see your name, nickname and profile photo, and can send you a connection request. Tracey does not offer search by part of a nickname or a list of users to browse. If you have not set a nickname, you cannot be found this way.
+
+Anyone who opens your invite link or scans your invite QR code can see your name on the invitation page without signing in, and your name, nickname and profile photo in the app. An invite link stops working seven days after it is created.
+
+A person you send a connection request to can see your name, nickname and profile photo.
+
+### People You Are Connected With
+
+Once a connection request has been accepted, each of you can see the other's:
+
+- current location and the time it was last updated;
+- location history, including how the person was moving and at what speed;
+- battery level and device model.
+
+Your email address is included in the profile information delivered to the apps of people you are connected with, although Tracey does not display it to them.
+
+Your connections may also receive notifications about you without any action on your part: when you arrive at or leave a place they have marked, when your device's battery falls below 20%, and when your device has not been in contact with Tracey for 12 hours. Each of your connections decides for themselves whether to receive the battery and lost-contact notifications.
+
+### Your Choices
+
+You can hide your location from a specific person in that person's card in the app. They will then no longer have access to your current location, location history, battery level or device model, will not receive the notifications described above, will see that you are not sharing your location with them, and will be notified of the change. You continue to see their location unless they hide it from you. If you later resume sharing, your earlier location history becomes visible to them again.
+
+An SOS alert is the one exception: it is delivered, together with your location at that moment, to all of your connections, including those you have hidden your location from.
+
+You can remove a connection at any time. This ends location sharing in both directions and deletes the places you had marked for each other.
 
 You are responsible for choosing whom you connect with and whom you authorize to view your location.
-
-Depending on the features available in Tracey, you may be able to stop sharing your location with a specific person, leave a group or circle, temporarily pause location sharing or disable location access entirely.
 
 You can also control location permissions through iOS Settings.
 
@@ -92,9 +172,9 @@ Disabling location access may prevent some or all location-sharing functionality
 
 Some Tracey features require access to location while the app is not actively displayed on screen.
 
-If you grant background location permission, Tracey may receive location updates while the application is running in the background.
+If you grant "Always" location permission, Tracey receives location updates while the application is in the background or closed.
 
-Background location is used to provide functionality such as live location updates, location history, arrival and departure notifications, safety-related alerts and other location-sharing features.
+Background location is used to provide live location updates, location history, arrival and departure notifications, responses to location requests from your connections and other location-sharing features.
 
 You may change Tracey's location permission at any time in iOS Settings.
 
@@ -104,25 +184,29 @@ We do not disclose your personal information except as necessary to provide Trac
 
 ### Other Tracey Users
 
-Location and related information may be shared with people you have explicitly authorized through Tracey.
-
-Depending on the features you use, they may be able to see information such as your current location, recent location, location history, location update time and device status information made available through Tracey.
+Information is made available to other Tracey users as described in Section 3.
 
 ### Service Providers
 
-We may use trusted service providers to operate infrastructure necessary for Tracey, including cloud hosting, databases, authentication, push notifications, security and technical infrastructure.
+We use service providers to operate the infrastructure necessary for Tracey. Our servers are hosted with Railway.
 
-These providers may process information only as necessary to provide their services to us and are expected to protect personal information appropriately.
+Service providers process information only as necessary to provide their services to us.
+
+We share personal information with a third party only where it provides the same or equal protection of user data as described in this Privacy Policy.
 
 ### Apple
 
-Apple may process information when you use Sign in with Apple, Apple Push Notification service, the App Store or In-App Purchases.
+Apple processes information when you use Sign in with Apple, Apple Push Notification service, the App Store or In-App Purchases, and when the app displays maps, searches for addresses or looks up the address of a location through Apple Maps.
 
 Apple's handling of information is governed by Apple's own privacy policies.
 
 ### Google
 
-If you choose Google Sign-In, Google processes authentication information according to Google's own terms and privacy policies.
+If you choose Google Sign-In, Google processes authentication information.
+
+If usage statistics and crash reports are turned on, Google processes the information described in Section 1 under "Usage Statistics and Crash Reports" through Google Analytics for Firebase and Firebase Crashlytics.
+
+Google's handling of information is governed by Google's own terms and privacy policies.
 
 ### Legal Requirements
 
@@ -132,21 +216,23 @@ We may disclose information if we reasonably believe disclosure is required by a
 
 We retain personal information only for as long as necessary to provide Tracey, fulfill the purposes described in this Privacy Policy, comply with legal obligations and resolve security or technical issues.
 
-Account information is generally retained while your account remains active.
+Account information is retained while your account exists.
 
-Location history is retained for the period applicable to your account, subscription or location-history settings. The applicable retention period may depend on the Tracey plan and is displayed within the application.
+Location history is retained until you delete your account. It is not deleted automatically after a period of time. Without a subscription the app displays location history for today and yesterday, and a subscription makes earlier days available in the app. The plan changes what the app displays, not what is stored.
 
-When location history expires, it is deleted or scheduled for deletion from active systems.
+SOS alerts, connections, places and settings are retained until you remove them, where the app allows it, or delete your account.
+
+Usage statistics and crash reports are retained by Google for the periods set by those services. Because they are not linked to your Tracey account, they are not removed when you delete your account.
 
 Some information may remain for a limited period in backups, security logs or records that we are legally required to retain.
 
-When you delete your Tracey account, personal information associated with the account will be deleted or anonymized unless retention is required by law or necessary for legitimate security, fraud-prevention or dispute-resolution purposes.
+When you delete your Tracey account, the personal information associated with the account is deleted as described in Section 8.
 
 ## 7. Your Privacy Controls
 
 You can control many privacy-related aspects of Tracey directly from the app or through iOS.
 
-You may change or revoke location permission, disable Precise Location where compatible with the requested feature, disable notifications, stop sharing your location with another person, leave a group or circle, modify certain profile information and delete your Tracey account.
+You may change or revoke location permission, disable Precise Location where compatible with the requested feature, revoke Motion & Fitness access, disable notifications, hide your location from a specific person, remove a connection, change your nickname, replace or delete your profile photo, turn off usage statistics and crash reports, and delete your Tracey account.
 
 Revoking a permission does not affect processing that occurred before the permission was revoked.
 
@@ -154,15 +240,15 @@ Certain Tracey features may stop working if required permissions are disabled.
 
 ## 8. Account and Data Deletion
 
-You may request deletion of your Tracey account and associated personal information.
+You can delete your Tracey account in the app: open your profile and choose "Delete account".
 
-Where available, you can initiate account deletion directly inside Tracey through the account settings.
+Deletion takes effect immediately and cannot be undone. It removes from our servers your account record together with your location history, connections and connection requests, invite links, the places you marked and the places marked for you, SOS alerts, notification settings, registered devices, profile photo and sign-in sessions.
 
-You may also contact us at:
+If you cannot use the app, you may also request deletion by contacting us at:
 
 **vkovalskiyk@gmail.com**
 
-After an account deletion request is processed, we will delete or anonymize personal information associated with the account unless we are required or permitted to retain specific information under applicable law.
+After an account is deleted, some information may remain for a limited period in backups, or where we are required or permitted to retain specific information under applicable law.
 
 Deleting Tracey from your device does not by itself delete your Tracey account or information stored on our servers.
 
@@ -204,6 +290,8 @@ Depending on the processing activity, these may include your consent, performanc
 
 Subject to applicable law, you may have the right to request access to your personal information, request correction of inaccurate information, request deletion, request restriction of processing, object to certain processing, withdraw consent and request a portable copy of certain information.
 
+You can withdraw your consent to usage statistics and crash reports at any time with the switch described in Section 1, and your consent to location, motion, camera and notification access in iOS Settings.
+
 You may also have the right to lodge a complaint with the competent data protection authority.
 
 To exercise your rights, contact:
@@ -220,9 +308,11 @@ Where applicable law requires specific protections for international transfers o
 
 ## 13. Third-Party Services
 
-Tracey may interact with third-party services that operate under their own privacy policies.
+Tracey relies on third-party services that operate under their own privacy policies:
 
-These services may include Apple services, Google authentication services and infrastructure providers used to operate Tracey.
+- Apple (Sign in with Apple, push notifications, the App Store, Apple Maps): https://www.apple.com/legal/privacy/
+- Google (Google Sign-In, Google Analytics for Firebase, Firebase Crashlytics): https://policies.google.com/privacy
+- Railway (server hosting): https://railway.com/legal/privacy
 
 We encourage you to review the privacy policies of third-party services you use.
 
